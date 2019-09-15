@@ -12,6 +12,9 @@
     height: 75px;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .section-head__container-button {
@@ -29,12 +32,19 @@
 }
 
 .section-head__container-button li {
-    font-family: Alegreya, sans-serif;
     list-style-type: none;
     padding: 0 30px;
+
+}
+.section-head__container-button a{
+    text-decoration: none;
     color: #ffffff;
+    font-family: Alegreya, sans-serif;
     font-size: 16px;
     letter-spacing: 3px;
+}
+.section-head__container-button a:hover{
+    color: #d1d1d1;
 }
 
 .button-tools {
@@ -134,6 +144,7 @@
 
 .section_head__container-header a:hover {
     text-decoration: none;
+    background-color: rgba(86, 83, 76, 0.7);
 }
 
 .border_bullets {

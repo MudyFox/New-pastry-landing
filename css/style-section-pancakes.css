@@ -126,12 +126,14 @@
     max-width: 64px;
     height: 64px;
     border-radius: 50%;
+    object-fit: fill;
 }
 
 .swiper-container {
     width: 100%;
     height: 100%;
 }
+
 .swiper-slide {
     text-align: center;
     /* Center slide text vertically */
@@ -160,6 +162,11 @@
     color: #a47d5e;
     font-size: 20px;
 }
+.swiper-button-next.section-pancakes__slider__button :hover,
+.swiper-button-prev.section-pancakes__slider__button :hover {
+    color: #634a25;
+}
+
 .section-pancakes__container-slider{
     padding: 0 40px;
 }
