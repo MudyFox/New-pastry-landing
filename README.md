@@ -1,1 +1,1 @@
-# New-pastry-landing
+pastry-landing
